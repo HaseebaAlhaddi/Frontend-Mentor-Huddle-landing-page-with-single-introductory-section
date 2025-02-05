@@ -37,12 +37,14 @@ main div h1{
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 20px;
+    width: 90%;
 }
 main div p{
     font-family: "Open Sans", serif;
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 20px;
+    width: 90%;
 }
 main div button{
     font-family: "Poppins", serif;
@@ -74,13 +76,15 @@ footer div i:hover{
     color: hsl(300, 69%, 71%);
     border: 1px solid hsl(300, 69%, 71%);
 }
-@media (max-width:768px){
+@media (max-width:900px){
+    body{
+        background-image: url('images/bg-mobile.svg');
+    }
     main{
         flex-direction: column;
        align-items: center;
     justify-content: center;
     gap: 30px;
-    width: 100%;
     }
     main div:nth-child(1){
         width: 100%;
